@@ -3,25 +3,23 @@ import "./style.css";
 
 function FriendCard(props) {
   return (
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} onClick={() => {props.shuffleFriend(); props.matchFriend(props.id)}}/>
-      </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Occupation:</strong> {props.occupation}
-          </li>
-          <li>
-            <strong>Location:</strong> {props.location}
-          </li>
-        </ul>
+    <div className = "card">   
+      <div className="uk-child-width-1-1@s uk-grid-match" uk-grid>
+        <div>
+            <div className="uk-card uk-card-default uk-card-hover uk-card-body">            
+                <img alt={props.name} src={props.image} onClick={() => {props.shuffleFriend(); props.matchFriend(props.id)}}/>
+            </div>
+        </div>
+        
       </div>
     </div>
-  );
+
+);
+
+
+
+
+
 }
 
 export default FriendCard;

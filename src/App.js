@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Container from "./components/Container";
+import Nav from "./components/Nav";
 import friends from "./friends.json";
+
 
 class App extends Component {
 
@@ -11,7 +14,9 @@ class App extends Component {
     count: 0,
     highScore: 0,
     matchedFriends: [],
-    message: "Click to play!"
+    message: "Click to play!",
+    scriptLoaded: false,
+    scriptError: false
   };
 
   shuffleFriend = () => {
@@ -36,14 +41,16 @@ class App extends Component {
     {
       this.setState({ highScore : count});
     }
-  }
+  };
+
+
+
+
+
 
 
   matchFriend = (id) => {
 
-
-
-   
 
     var matchedFriends = this.state.matchedFriends;
     var count = this.state.count;
@@ -92,10 +99,8 @@ class App extends Component {
     }
 
 
-
     if (correct === true)
     {
-
       count = count + 1;
       highScore = this.state.highScore; 
       this.checkhighScore(count, highScore);
@@ -104,15 +109,21 @@ class App extends Component {
   };
 
 
+
+
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-      <Wrapper>
-        <Title>Friends List</Title>
-        <div> Count: {this.state.count} </div>
-        <div> High Score: {this.state.highScore} </div>
-        <div> {this.state.message} </div>
 
+  
+      <Wrapper>
+        <Nav 
+        count={this.state.count} 
+        highScore = {this.state.highScore}
+        message = {this.state.message} 
+        />
+        <Title></Title>
+      
         {this.state.friends.map(friend => (
           <FriendCard
             shuffleFriend={this.shuffleFriend}
@@ -125,7 +136,9 @@ class App extends Component {
             location={friend.location}
           />
         ))}
+
       </Wrapper>
+  
     );
   }
 }
