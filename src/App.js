@@ -25,69 +25,63 @@ class App extends Component {
   };
 
 
-  checkhighScore = () =>
+  checkhighScore = (count, highScore) =>
   {
     console.log("In check function");
-    var tempCount = this.state.count;
-    var tempHighScore = this.state.highScore;
+    console.log("count", count);
+    console.log("highScore", highScore);
 
-    console.log(tempCount);
-    console.log(tempHighScore);
 
-    if (tempCount > tempHighScore)
+    if (count > highScore)
     {
-       console.log(tempCount);
-
-      this.setState({ highScore : this.state.highScore + 1});
-
+      this.setState({ highScore : count});
     }
   }
 
 
   matchFriend = (id) => {
 
-     console.log(this.state.count);
 
+
+   
 
     var matchedFriends = this.state.matchedFriends;
+    var count = this.state.count;
+    var highScore = this.state.highScore;
+    var correct = false;
+
+
 
     if (matchedFriends[0] === null)
     {
-
-       this.checkhighScore();
+   
       matchedFriends = [...matchedFriends, id];
-     
-
+      correct = true;
 
       this.setState({ matchedFriends : matchedFriends});
-      this.setState({ count : this.state.count + 1});
-   
+      this.setState({ count : count + 1});
 
     }
     else
     {
       if (matchedFriends.includes(id))
       {
+
         this.setState({ count : 0 });
         this.setState({ matchedFriends: []});
-
-        this.setState({message: "Game over. Start again."})
+        this.setState({message: "Game over. Start again."});
         setTimeout(function() {this.setState({message: "Click to Play"});}.bind(this),3000);
       }
       else
       {
-        this.setState({ count : this.state.count + 1});
-        // this.checkhighScore();
-
-
-        if (this.state.count < 3)
-        {
-          matchedFriends = [...matchedFriends, id];
-          this.setState({ matchedFriends : matchedFriends});
+        correct = true;
+        this.setState({ count : count + 1});
+        matchedFriends = [...matchedFriends, id];
+        this.setState({ matchedFriends : matchedFriends});
           
-        }     
-        else if (this.state.count === 3)
-        {          
+
+        if (count === 2)
+        { 
           this.setState({ matchedFriends: []});  
 
           this.setState({count: 0});
@@ -95,6 +89,16 @@ class App extends Component {
           setTimeout(function() {this.setState({message: "Click to Play"});}.bind(this),3000);    
         }
       }
+    }
+
+
+
+    if (correct === true)
+    {
+
+      count = count + 1;
+      highScore = this.state.highScore; 
+      this.checkhighScore(count, highScore);
     }
 
   };
@@ -106,9 +110,9 @@ class App extends Component {
       <Wrapper>
         <Title>Friends List</Title>
         <div> Count: {this.state.count} </div>
-        <div> Total Count: 3 </div>
         <div> High Score: {this.state.highScore} </div>
         <div> {this.state.message} </div>
+
         {this.state.friends.map(friend => (
           <FriendCard
             shuffleFriend={this.shuffleFriend}

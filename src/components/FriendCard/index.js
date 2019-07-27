@@ -5,7 +5,7 @@ function FriendCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.name} src={props.image} onClick={() => {props.shuffleFriend(); props.matchFriend(props.id)}}/>
       </div>
       <div className="content">
         <ul>
@@ -20,9 +20,6 @@ function FriendCard(props) {
           </li>
         </ul>
       </div>
-      <span onClick={() => {props.shuffleFriend(); props.matchFriend(props.id)}} className="remove">
-        ✓
-      </span>
     </div>
   );
 }
