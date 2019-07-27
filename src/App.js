@@ -123,7 +123,7 @@ class App extends Component {
         message = {this.state.message} 
         />
         <Title></Title>
-      
+        <Container>
         {this.state.friends.map(friend => (
           <FriendCard
             shuffleFriend={this.shuffleFriend}
@@ -136,7 +136,7 @@ class App extends Component {
             location={friend.location}
           />
         ))}
-
+        </Container>
       </Wrapper>
   
     );
