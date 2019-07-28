@@ -1,6 +1,7 @@
 .nav
 {
 	width:100% !important;
+
 }
 
 .uk-navbar-container
@@ -9,6 +10,35 @@
 	width:100%;
 
 }
+
+
+
+.item
+{
+	font-family:'Poppins', sans-serif;
+	text-decoration: none !important;
+	font-size: 18px;
+}
+
+.uk-logo
+{
+	font-family:'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+
+/*.uk-navbar-left
+{
+
+	width: 30%;
+}*/
+/*
+.uk-navbar-center, .uk-navbar-right
+{
+	float: left;
+}
+*/
+
 
 .uk-sticky-placehoder
 {

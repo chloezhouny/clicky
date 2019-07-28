@@ -7,21 +7,24 @@ function Nav(props)
 return (
 
 <div className = "nav" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;">
-    <nav className="uk-navbar-container" uk-navbar>
+    <nav className="uk-navbar-container d-flex justify-content-between" uk-navbar>
 
-        <div className="uk-navbar-left">
-			<a className="uk-navbar-item uk-logo" href="#">Clicky Game</a>
-			 <a className="uk-navbar-item" href="#">Score: {props.count}</a>
-
-
-	            <a className="uk-navbar-item" href="#">Top Score: {props.highScore}</a>
-	
+        <div >
+			<a className="uk-navbar-item uk-logo" href="/">Clicky Game</a>
+		
         </div>
 
-        <div className="uk-navbar-center">
-	           <a className="uk-navbar-item" href="#">{props.message}</a>
+        <div >
+	           <a className="uk-navbar-item item" href="#" style={{color: props.correct ? "pink" : "black"}}>{props.message}</a>
         </div>
 
+
+        <div className = "d-flex justify-content-around">
+
+             <a className="uk-navbar-item item" href="#">Score: {props.count} </a>
+            <a  className="uk-navbar-item item" href="#">Top Score: {props.highScore}</a>
+    
+        </div>
 
     </nav>
 </div>

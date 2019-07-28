@@ -14,9 +14,11 @@ class App extends Component {
     count: 0,
     highScore: 0,
     matchedFriends: [],
-    message: "Click to play!",
-    scriptLoaded: false,
-    scriptError: false
+    message: "Click to play",
+    shake: "",
+    correct: false
+
+
   };
 
   shuffleFriend = () => {
@@ -42,10 +44,6 @@ class App extends Component {
       this.setState({ highScore : count});
     }
   };
-
-
-
-
 
 
 
@@ -77,6 +75,7 @@ class App extends Component {
         this.setState({ count : 0 });
         this.setState({ matchedFriends: []});
         this.setState({message: "Game over. Start again."});
+
         setTimeout(function() {this.setState({message: "Click to Play"});}.bind(this),3000);
       }
       else
@@ -85,6 +84,7 @@ class App extends Component {
         this.setState({ count : count + 1});
         matchedFriends = [...matchedFriends, id];
         this.setState({ matchedFriends : matchedFriends});
+        this.setState({message: "You guessed correctly"});
           
 
         if (count === 2)
@@ -101,10 +101,18 @@ class App extends Component {
 
     if (correct === true)
     {
+      this.setState({correct: true})
       count = count + 1;
       highScore = this.state.highScore; 
       this.checkhighScore(count, highScore);
+      setTimeout(function() {this.setState({correct: false});}.bind(this),500);
     }
+    else
+    {
+      this.setState({shake: "uk-animation-shake"});
+      setTimeout(function() {this.setState({shake: ""});}.bind(this),3000);
+
+    } 
 
   };
 
@@ -121,9 +129,10 @@ class App extends Component {
         count={this.state.count} 
         highScore = {this.state.highScore}
         message = {this.state.message} 
+        correct = {this.state.correct}
         />
         <Title></Title>
-        <Container>
+        <Container shake={this.state.shake}>
         {this.state.friends.map(friend => (
           <FriendCard
             shuffleFriend={this.shuffleFriend}
