@@ -3,98 +3,72 @@
     "id": 1,
     "name": "Untitled (for Parkett no. 44)",
     "image": "https://www.moma.org///media/W1siZiIsIjE5NTg1MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=4c4cdb6f55bdd57e",
-    "artist": "Vija Celmins",
-    "location": "A Pineapple Under the Sea"
+
   },
 
  {
-    "id": 5,
+    "id": 2,
     "name": "Untitled (Web 2)",
     "image": "https://www.moma.org//media/W1siZiIsIjMzNzE5OSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=8f8565742770c06c",
-    "occupation": "Vija Celmins. ",
-    "location": "Nowhere, Kansas"
   },
   
-
-  {
-    "id": 9,
-    "name": "Untitled Ocean. 2016",
-    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=0ad1c06c7b2c778d",
-    "occupation": "Vija Celmins.",
-    "location": "California"
-  },
-  {
-    "id": 6,
-    "name": "Untitled Ocean. 2016",
-    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=b2569a3ce63244db",
-    "occupation": "Vija Celmins. ",
-    "location": "Bluffington"
-  },
 
   {
     "id": 3,
+    "name": "Untitled Ocean. 2016",
+    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=0ad1c06c7b2c778d",
+  },
+  {
+    "id": 4,
+    "name": "Untitled Ocean. 2016",
+    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=b2569a3ce63244db",
+  },
+
+  {
+    "id": 5,
     "name": "Untitled #5. 2016",
     "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwNCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=e2c25b9a61541dd6",
-    "occupation": "Vija Celmins.",
-    "location": "An Easter Island Head"
   },
 
   
   {
-    "id": 8,
+    "id": 6,
     "name": "Alliance",
     "image": "https://www.moma.org///media/W1siZiIsIjkwMDkxIl0sWyJwIiwiY29udmVydCIsIi1yZXNpemUgMjAwMHgyMDAwXHUwMDNlIl1d.jpg?sha=e149b5a2ad1af9b9",
-    "occupation": "Vija Celmins.",
-    "location": "Aron City"
   },
   
   {
-    "id": 10,
+    "id": 7,
     "name": "Jupiter Moon - Constellation. 1983",
     "image": "https://www.moma.org//media/W1siZiIsIjEwMDg0OCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=ab63fa4ca98ad595",
-    "occupation": "Vija Celmins.",
-    "location": "O-Town, California"
   },
 
    {
-    "id": 2,
+    "id": 8,
     "name": "Ocean Surface Woodcut 1992",
     "image": "https://www.moma.org///media/W1siZiIsIjY4OTgzIl0sWyJwIiwiY29udmVydCIsIi1yZXNpemUgMjAwMHgyMDAwXHUwMDNlIl1d.jpg?sha=feeb4c7687717607",
-    "occupation": "Vija Celmins.",
-    "location": "A Giant Anchor"
   },
  
-
-  
-
   {
-    "id": 11,
+    "id": 9,
     "name": "Untitled #1. 2016",
     "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwMCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=95c0edea584d7202",
-    "occupation": "Vija Celmins.",
-    "location": "Earth"
   },
   {
-    "id": 12,
+    "id": 10,
     "name": "Untitled #2. 2016",
     "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=3b4988b59a87ad0a",
-    "occupation": "Vija Celmins. ",
-    "location": "Under a City Dump"
   },
   {
-    "id": 7,
+    "id": 11,
     "name": "Untitled #3. 2016",
     "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=aedba0cb724ac0c5",
-    "occupation": "Vija Celmins.",
-    "location": "A Rabbit Burrow"
   },
 
   {
-    "id": 4,
+    "id": 12,
     "name": "Untitled #4. 2016",
     "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=72cb02b3eba279d4",
-    "occupation": "Vija Celmins.",
-    "location": "A Secret Laboratory"
   }
 
 
