@@ -87,7 +87,7 @@ class App extends Component {
         this.setState({message: "You guessed correctly"});
           
 
-        if (count === 2)
+        if (count === 11)
         { 
           this.setState({ matchedFriends: []});  
 

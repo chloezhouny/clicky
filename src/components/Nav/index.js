@@ -7,7 +7,7 @@ function Nav(props)
 return (
 
 <div className = "nav" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;">
-    <nav className="uk-navbar-container d-flex justify-content-between" uk-navbar>
+    <nav className="uk-navbar-container d-flex justify-content-around" uk-navbar>
 
         <div >
 			<a className="uk-navbar-item uk-logo" href="/">Clicky Game</a>

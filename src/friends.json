@@ -1,86 +1,101 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
+    "name": "Untitled (for Parkett no. 44)",
+    "image": "https://www.moma.org///media/W1siZiIsIjE5NTg1MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=4c4cdb6f55bdd57e",
+    "artist": "Vija Celmins",
     "location": "A Pineapple Under the Sea"
   },
-  {
-    "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
-  },
-  {
-    "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
-  },
-  {
-    "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
-  },
-  {
+
+ {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
+    "name": "Untitled (Web 2)",
+    "image": "https://www.moma.org//media/W1siZiIsIjMzNzE5OSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=8f8565742770c06c",
+    "occupation": "Vija Celmins. ",
     "location": "Nowhere, Kansas"
   },
-  {
-    "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
-  },
-  {
-    "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
-  },
-  {
-    "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
-  },
+  
+
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
+    "name": "Untitled Ocean. 2016",
+    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=0ad1c06c7b2c778d",
+    "occupation": "Vija Celmins.",
     "location": "California"
   },
   {
+    "id": 6,
+    "name": "Untitled Ocean. 2016",
+    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=b2569a3ce63244db",
+    "occupation": "Vija Celmins. ",
+    "location": "Bluffington"
+  },
+
+  {
+    "id": 3,
+    "name": "Untitled #5. 2016",
+    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwNCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=e2c25b9a61541dd6",
+    "occupation": "Vija Celmins.",
+    "location": "An Easter Island Head"
+  },
+
+  
+  {
+    "id": 8,
+    "name": "Alliance",
+    "image": "https://www.moma.org///media/W1siZiIsIjkwMDkxIl0sWyJwIiwiY29udmVydCIsIi1yZXNpemUgMjAwMHgyMDAwXHUwMDNlIl1d.jpg?sha=e149b5a2ad1af9b9",
+    "occupation": "Vija Celmins.",
+    "location": "Aron City"
+  },
+  
+  {
     "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
+    "name": "Jupiter Moon - Constellation. 1983",
+    "image": "https://www.moma.org//media/W1siZiIsIjEwMDg0OCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=ab63fa4ca98ad595",
+    "occupation": "Vija Celmins.",
     "location": "O-Town, California"
   },
+
+   {
+    "id": 2,
+    "name": "Ocean Surface Woodcut 1992",
+    "image": "https://www.moma.org///media/W1siZiIsIjY4OTgzIl0sWyJwIiwiY29udmVydCIsIi1yZXNpemUgMjAwMHgyMDAwXHUwMDNlIl1d.jpg?sha=feeb4c7687717607",
+    "occupation": "Vija Celmins.",
+    "location": "A Giant Anchor"
+  },
+ 
+
+  
+
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
+    "name": "Untitled #1. 2016",
+    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwMCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=95c0edea584d7202",
+    "occupation": "Vija Celmins.",
     "location": "Earth"
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
+    "name": "Untitled #2. 2016",
+    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=3b4988b59a87ad0a",
+    "occupation": "Vija Celmins. ",
     "location": "Under a City Dump"
+  },
+  {
+    "id": 7,
+    "name": "Untitled #3. 2016",
+    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=aedba0cb724ac0c5",
+    "occupation": "Vija Celmins.",
+    "location": "A Rabbit Burrow"
+  },
+
+  {
+    "id": 4,
+    "name": "Untitled #4. 2016",
+    "image": "https://www.moma.org//media/W1siZiIsIjQ1MTAwMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=72cb02b3eba279d4",
+    "occupation": "Vija Celmins.",
+    "location": "A Secret Laboratory"
   }
+
+
 ]
