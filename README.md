@@ -1,1 +1,1 @@
- Deployed link: https://chloezhouny.github.io/Vija-Celmins-Clicky-Game/
+ Deployed link: https://chloezhouny.github.io/clicky/
